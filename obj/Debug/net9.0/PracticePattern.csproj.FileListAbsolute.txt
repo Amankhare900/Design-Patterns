@@ -12,3 +12,4 @@ D:\headFirstDesignPatterns\Head-First-Design-Patterns-master\src\PracticePattern
 D:\headFirstDesignPatterns\Head-First-Design-Patterns-master\src\PracticePattern\obj\Debug\net9.0\PracticePattern.pdb
 D:\headFirstDesignPatterns\Head-First-Design-Patterns-master\src\PracticePattern\obj\Debug\net9.0\PracticePattern.genruntimeconfig.cache
 D:\headFirstDesignPatterns\Head-First-Design-Patterns-master\src\PracticePattern\obj\Debug\net9.0\ref\PracticePattern.dll
+D:\headFirstDesignPatterns\Head-First-Design-Patterns-master\src\PracticePattern\obj\Debug\net9.0\PracticePattern.sourcelink.json
