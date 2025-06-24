@@ -1,0 +1,14 @@
+D:\headFirstDesignPatterns\Head-First-Design-Patterns-master\src\PracticePattern\bin\Debug\net9.0\PracticePattern.exe
+D:\headFirstDesignPatterns\Head-First-Design-Patterns-master\src\PracticePattern\bin\Debug\net9.0\PracticePattern.deps.json
+D:\headFirstDesignPatterns\Head-First-Design-Patterns-master\src\PracticePattern\bin\Debug\net9.0\PracticePattern.runtimeconfig.json
+D:\headFirstDesignPatterns\Head-First-Design-Patterns-master\src\PracticePattern\bin\Debug\net9.0\PracticePattern.dll
+D:\headFirstDesignPatterns\Head-First-Design-Patterns-master\src\PracticePattern\bin\Debug\net9.0\PracticePattern.pdb
+D:\headFirstDesignPatterns\Head-First-Design-Patterns-master\src\PracticePattern\obj\Debug\net9.0\PracticePattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\headFirstDesignPatterns\Head-First-Design-Patterns-master\src\PracticePattern\obj\Debug\net9.0\PracticePattern.AssemblyInfoInputs.cache
+D:\headFirstDesignPatterns\Head-First-Design-Patterns-master\src\PracticePattern\obj\Debug\net9.0\PracticePattern.AssemblyInfo.cs
+D:\headFirstDesignPatterns\Head-First-Design-Patterns-master\src\PracticePattern\obj\Debug\net9.0\PracticePattern.csproj.CoreCompileInputs.cache
+D:\headFirstDesignPatterns\Head-First-Design-Patterns-master\src\PracticePattern\obj\Debug\net9.0\PracticePattern.dll
+D:\headFirstDesignPatterns\Head-First-Design-Patterns-master\src\PracticePattern\obj\Debug\net9.0\refint\PracticePattern.dll
+D:\headFirstDesignPatterns\Head-First-Design-Patterns-master\src\PracticePattern\obj\Debug\net9.0\PracticePattern.pdb
+D:\headFirstDesignPatterns\Head-First-Design-Patterns-master\src\PracticePattern\obj\Debug\net9.0\PracticePattern.genruntimeconfig.cache
+D:\headFirstDesignPatterns\Head-First-Design-Patterns-master\src\PracticePattern\obj\Debug\net9.0\ref\PracticePattern.dll
