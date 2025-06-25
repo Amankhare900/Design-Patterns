@@ -1,7 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 // Pattern - 1
-using PRACTICEPATTERN.DesignPatterns.Pattern1.StrategyPatternChalange;
-using PRACTICEPATTERN.DesignPatterns.Pattern1.StrategyPatternChalange.Camera;
+using PRACTICEPATTERN.DesignPatterns.Pattern1.StrategyPatternChallenge;
 
 MiniDuckSimulator.DuckPatter();
 PhotoWithPhone.UsePhone();
