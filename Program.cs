@@ -5,7 +5,13 @@
 // MiniDuckSimulator.DuckPatter();
 // PhotoWithPhone.UsePhone();
 
-// Pattern - 2
+// Pattern - 2 // Observer
+using PRACTICEPATTERN.DesignPatterns.ObserverPattern;
+
+WeatherStation.StartWeatherStation();
+
+
+// Pattern - 3
 
 // simple Factory
 // using PRACTICEPATTERN.DesignPatterns.FactoryPattern.SimpleFactory;
@@ -14,6 +20,6 @@
 
 // Factory Method
 
-using PRACTICEPATTERN.DesignPatterns.FactoryPattern.FactoryMethod;
+// using PRACTICEPATTERN.DesignPatterns.FactoryPattern.FactoryMethod;
 
-BurgerShop.MakeBurger();
+// BurgerShop.MakeBurger();
