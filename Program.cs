@@ -6,9 +6,9 @@
 // PhotoWithPhone.UsePhone();
 
 // Pattern - 2 // Observer
-using PRACTICEPATTERN.DesignPatterns.ObserverPattern;
+// using PRACTICEPATTERN.DesignPatterns.ObserverPattern;
 
-WeatherStation.StartWeatherStation();
+// WeatherStation.StartWeatherStation();
 
 
 // Pattern - 3
@@ -23,3 +23,13 @@ WeatherStation.StartWeatherStation();
 // using PRACTICEPATTERN.DesignPatterns.FactoryPattern.FactoryMethod;
 
 // BurgerShop.MakeBurger();
+
+// Abstract Factory
+
+// using PRACTICEPATTERN.DesignPatterns.FactoryPattern.AbstractFactory;
+// using PRACTICEPATTERN.DesignPatterns.FactoryPattern.AbstractFactory.Factory;
+
+// BurgerShop kingBurger = new SinghBurgerShop();
+// Console.WriteLine("which burger do you want? basic, standard, or premium ?");
+// string type = Console.ReadLine() ?? "basic";
+// kingBurger.OrderBurger(type);

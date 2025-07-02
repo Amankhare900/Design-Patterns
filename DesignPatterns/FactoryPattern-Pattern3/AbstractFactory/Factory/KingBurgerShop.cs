@@ -2,9 +2,9 @@ using PRACTICEPATTERN.DesignPatterns.FactoryPattern.AbstractFactory.Burger;
 
 namespace PRACTICEPATTERN.DesignPatterns.FactoryPattern.AbstractFactory.Factory;
 
-public class KingBurger : IBurgerFactory
+public class KingBurgerShop : BurgerShop
 {
-  public IBurger CreateBurger(string type)
+  public override IBurger CreateBurger(string type)
   {
     if (type == "basic")
     {
