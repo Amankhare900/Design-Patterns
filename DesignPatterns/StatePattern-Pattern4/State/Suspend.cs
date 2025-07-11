@@ -1,7 +1,9 @@
+using PRACTICEPATTERN.DesignPatterns.StatePattern.Enum;
+
 namespace PRACTICEPATTERN.DesignPatterns.StatePattern.State;
 public class Suspended : BankAccountState
 {
-  public Suspended(BankAccountSolution bankAccount)
+  public Suspended(BankAccount bankAccount)
   {
     this.BankAccount = bankAccount;
   }

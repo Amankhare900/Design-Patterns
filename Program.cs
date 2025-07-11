@@ -36,5 +36,16 @@
 
 
 // State Pattern - Patter4
-using PRACTICEPATTERN.DesignPatterns.StatePattern.State;
-BankAccount bankAccount = new BankAccount("Nemesis@1234", 80000, 787433);
+using PRACTICEPATTERN.DesignPatterns.StatePattern;
+
+BankAccount bankAccount = new(80000, "Nemesis@1234", 787433);
+
+Console.WriteLine(bankAccount.Login("here"));
+Console.WriteLine(bankAccount.Login("heres"));
+Console.WriteLine(bankAccount.Login(""));
+Console.WriteLine(bankAccount.Unlock(787433));
+Console.WriteLine(bankAccount.Login("Nemesis@1234"));
+Console.WriteLine(bankAccount.CashBalance);
+Console.WriteLine(bankAccount.Withdraw(2000));
+Console.WriteLine(bankAccount.CashBalance);
+Console.WriteLine(bankAccount.Withdraw(200000));

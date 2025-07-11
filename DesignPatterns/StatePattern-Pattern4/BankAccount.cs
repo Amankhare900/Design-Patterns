@@ -1,3 +1,6 @@
+using PRACTICEPATTERN.DesignPatterns.StatePattern.Enum;
+using PRACTICEPATTERN.DesignPatterns.StatePattern.State;
+
 namespace PRACTICEPATTERN.DesignPatterns.StatePattern;
 public class BankAccount
 {

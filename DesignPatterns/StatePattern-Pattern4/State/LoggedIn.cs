@@ -1,7 +1,9 @@
+using PRACTICEPATTERN.DesignPatterns.StatePattern.Enum;
+
 namespace PRACTICEPATTERN.DesignPatterns.StatePattern.State;
 public class LoggedIn : BankAccountState
 {
-  public LoggedIn(BankAccountSolution bankAccount)
+  public LoggedIn(BankAccount bankAccount)
   {
     this.BankAccount = bankAccount;
   }
@@ -23,7 +25,7 @@ public class LoggedIn : BankAccountState
   {
     if (amount <= BankAccount.CashBalance && amount >= 0)
     {
-      BankAccount.CashBalance -= amount;
+      BankAccount.CashBalance -= (int)amount;
       return StateInfo.LoggedIn;
     }
     return StateInfo.Error;

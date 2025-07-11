@@ -1,7 +1,9 @@
+using PRACTICEPATTERN.DesignPatterns.StatePattern.Enum;
+
 namespace PRACTICEPATTERN.DesignPatterns.StatePattern.State;
 public class LoggedOut :BankAccountState
 {
-  public LoggedOut(BankAccountSolution bankAccount)
+  public LoggedOut(BankAccount bankAccount)
   {
     this.BankAccount = bankAccount;
   }
