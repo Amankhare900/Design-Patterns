@@ -3,14 +3,12 @@ using PRACTICEPATTERN.DesignPatterns.FactoryPattern.AbstractFactory.Factory;
 
 namespace PRACTICEPATTERN.DesignPatterns.FactoryPattern.AbstractFactory;
 
-public class BurgerShop
+public abstract class BurgerShop
 {
-  public static void MakeBurger()
+  public void OrderBurger(string type)
   {
-    IBurgerFactory burgerFactory = new KingBurger();
-    Console.WriteLine("which burger do you want? basic, standard, or premium ?");
-    string type = Console.ReadLine() ?? "basic";
-    IBurger burger = burgerFactory.CreateBurger(type);
+    IBurger burger = CreateBurger(type);
     burger.Prepare();
   }
+  public abstract IBurger CreateBurger(string type);
 }
