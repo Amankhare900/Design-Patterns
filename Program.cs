@@ -33,3 +33,8 @@
 // Console.WriteLine("which burger do you want? basic, standard, or premium ?");
 // string type = Console.ReadLine() ?? "basic";
 // kingBurger.OrderBurger(type);
+
+
+// State Pattern - Patter4
+using PRACTICEPATTERN.DesignPatterns.StatePattern.State;
+BankAccount bankAccount = new BankAccount("Nemesis@1234", 80000, 787433);
