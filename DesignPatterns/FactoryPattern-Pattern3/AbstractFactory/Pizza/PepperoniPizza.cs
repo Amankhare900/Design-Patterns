@@ -3,18 +3,18 @@ using PRACTICEPATTERN.DesignPatterns.FactoryPattern.AbstractFactory.PizzaIngredi
 namespace PRACTICEPATTERN.DesignPatterns.FactoryPattern.AbstractFactory.Pizza;
 
 public class PepperoniPizza: Pizza {
-	IPizzaIngredientFactory IngredientFactory;
+	IPizzaIngredientFactory _ingredientFactory;
  
 	public PepperoniPizza(IPizzaIngredientFactory ingredientFactory) {
-		this.IngredientFactory = ingredientFactory;
+		_ingredientFactory = ingredientFactory;
 	}
  
 	public override void Prepare() {
 		Console.WriteLine("Preparing " + Name);
-		Dough = IngredientFactory.CreateDough();
-		Sauce = IngredientFactory.CreateSauce();
-		Cheese = IngredientFactory.CreateCheese();
-		Veggies = IngredientFactory.CreateVeggies();
-		Pepperoni = IngredientFactory.CreatePepperoni();
+		Dough = _ingredientFactory.CreateDough();
+		Sauce = _ingredientFactory.CreateSauce();
+		Cheese = _ingredientFactory.CreateCheese();
+		Veggies = _ingredientFactory.CreateVeggies();
+		Pepperoni = _ingredientFactory.CreatePepperoni();
 	}
 }

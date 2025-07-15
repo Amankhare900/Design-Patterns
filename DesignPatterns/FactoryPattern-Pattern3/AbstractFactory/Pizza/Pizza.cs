@@ -43,20 +43,20 @@ public abstract class Pizza
 		StringBuilder result = new();
 		result.Append("---- " + Name + " ----\n");
 		if (Dough != null) {
-			result.Append(Dough);
+			result.Append(Dough.ToString());
 			result.Append('\n');
 		}
 		if (Sauce != null) {
-			result.Append(Sauce);
+			result.Append(Sauce.ToString());
 			result.Append('\n');
 		}
 		if (Cheese != null) {
-			result.Append(Cheese);
+			result.Append(Cheese.ToString());
 			result.Append('\n');
 		}
 		if (Veggies != null) {
 			for (int i = 0; i < Veggies.Count; i++) {
-				result.Append(Veggies[i]);
+				result.Append(Veggies[i]).ToString();
 				if (i < Veggies.Count - 1) {
 					result.Append(", ");
 				}
@@ -64,11 +64,11 @@ public abstract class Pizza
 			result.Append('\n');
 		}
 		if (Clam != null) {
-			result.Append(Clam);
+			result.Append(Clam.ToString());
 			result.Append('\n');
 		}
 		if (Pepperoni != null) {
-			result.Append(Pepperoni);
+			result.Append(Pepperoni.ToString());
 			result.Append('\n');
 		}
 		return result.ToString();

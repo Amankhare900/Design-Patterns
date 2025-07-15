@@ -3,17 +3,17 @@ using PRACTICEPATTERN.DesignPatterns.FactoryPattern.AbstractFactory.PizzaIngredi
 namespace PRACTICEPATTERN.DesignPatterns.FactoryPattern.AbstractFactory.Pizza;
 
 public class ClamPizza: Pizza {
-	IPizzaIngredientFactory IngredientFactory;
+	IPizzaIngredientFactory _ingredientFactory;
  
 	public ClamPizza(IPizzaIngredientFactory ingredientFactory) {
-		this.IngredientFactory = ingredientFactory;
+		_ingredientFactory = ingredientFactory;
 	}
  
 	public override void Prepare() {
 		Console.WriteLine("Preparing " + Name);
-		Dough = IngredientFactory.CreateDough();
-		Sauce = IngredientFactory.CreateSauce();
-		Cheese = IngredientFactory.CreateCheese();
-		Clam = IngredientFactory.CreateClam();
+		Dough = _ingredientFactory.CreateDough();
+		Sauce = _ingredientFactory.CreateSauce();
+		Cheese = _ingredientFactory.CreateCheese();
+		Clam = _ingredientFactory.CreateClam();
 	}
 }
