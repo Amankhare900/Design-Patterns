@@ -4,10 +4,9 @@ using PRACTICEPATTERN.DesignPatterns.FactoryPattern.AbstractFactory.PizzaIngredi
 namespace PRACTICEPATTERN.DesignPatterns.FactoryPattern.AbstractFactory.PizzaStore;
 public class NYPizzaStore: PizzaStore {
  
-	protected override Pizza.Pizza CreatePizza(String item) {
+	protected override Pizza.Pizza CreatePizza(string item) {
 		Pizza.Pizza pizza = null;
-		IPizzaIngredientFactory ingredientFactory = 
-			new NYPizzaIngredientFactory();
+		IPizzaIngredientFactory ingredientFactory = new NYPizzaIngredientFactory();
  
 		if (item.Equals("cheese")) {
   
@@ -25,10 +24,9 @@ public class NYPizzaStore: PizzaStore {
 			pizza.SetName("New York Style Clam Pizza");
  
 		} else if (item.Equals("pepperoni")) {
-
 			pizza = new PepperoniPizza(ingredientFactory);
 			pizza.SetName("New York Style Pepperoni Pizza");
- 
+
 		} 
 		return pizza;
 	}
