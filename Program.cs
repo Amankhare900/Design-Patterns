@@ -29,23 +29,22 @@
 // using PRACTICEPATTERN.DesignPatterns.FactoryPattern.AbstractFactory;
 // using PRACTICEPATTERN.DesignPatterns.FactoryPattern.AbstractFactory.Factory;
 
-// BurgerShop kingBurger = new SinghBurgerShop();
-// Console.WriteLine("which burger do you want? basic, standard, or premium ?");
-// string type = Console.ReadLine() ?? "basic";
-// kingBurger.OrderBurger(type);
+using PRACTICEPATTERN.DesignPatterns.FactoryPattern.AbstractFactory;
+
+PizzaTestDrive.Test();
 
 
 // State Pattern - Patter4
-using PRACTICEPATTERN.DesignPatterns.StatePattern;
+// using PRACTICEPATTERN.DesignPatterns.StatePattern;
 
-BankAccount bankAccount = new(80000, "Nemesis@1234", 787433);
+// BankAccount bankAccount = new(80000, "Nemesis@1234", 787433);
 
-Console.WriteLine(bankAccount.Login("here"));
-Console.WriteLine(bankAccount.Login("heres"));
-Console.WriteLine(bankAccount.Login(""));
-Console.WriteLine(bankAccount.Unlock(787433));
-Console.WriteLine(bankAccount.Login("Nemesis@1234"));
-Console.WriteLine(bankAccount.CashBalance);
-Console.WriteLine(bankAccount.Withdraw(2000));
-Console.WriteLine(bankAccount.CashBalance);
-Console.WriteLine(bankAccount.Withdraw(200000));
+// Console.WriteLine(bankAccount.Login("here"));
+// Console.WriteLine(bankAccount.Login("heres"));
+// Console.WriteLine(bankAccount.Login(""));
+// Console.WriteLine(bankAccount.Unlock(787433));
+// Console.WriteLine(bankAccount.Login("Nemesis@1234"));
+// Console.WriteLine(bankAccount.CashBalance);
+// Console.WriteLine(bankAccount.Withdraw(2000));
+// Console.WriteLine(bankAccount.CashBalance);
+// Console.WriteLine(bankAccount.Withdraw(200000));
